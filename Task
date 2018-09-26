@@ -1,0 +1,11 @@
+Task:
+    - write application to track markets capitalization
+        - go to https://finance.google.com/finance
+        - extract Market Summary > World markets table (Price, % changes)
+        - save data in local sqllite database
+        - extract indexex (open, high, low) for each market and update database with data
+            - example https://finance.google.com/finance?q=NYSEARCA:UNG
+        - select saved data from DB and convert it to xml file
+        - send email to suhail.dandu@tele2.com and emilsnils.kantans@tele2.com with 5 best markets by %changes for today in html email body and xml-generated file attached
+        - all actions should be logged during execution in separate log file for debug purposes
+    - write tests on your code to test your application functionalityur code to test your application functionality.
